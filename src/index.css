@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-900 font-sans antialiased;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para encabezados */
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-gray-800;
+}
+
+/* Estilo para enlaces */
+a {
+  @apply text-blue-600 hover:text-blue-800 underline transition-colors;
+}
+
+/* Botones básicos */
+.btn {
+  @apply bg-blue-500 text-white font-medium py-2 px-4 rounded hover:bg-blue-600 transition;
+}
+
+/* Tarjetas para juegos */
+.card {
+  @apply bg-white rounded-lg shadow-md p-4 hover:shadow-xl transition-shadow;
+}
+
+/* Imágenes dentro de tarjetas */
+.card img {
+  @apply rounded-md w-full object-cover mb-4;
+}
+
+/* Títulos de juego */
+.card-title {
+  @apply text-lg font-semibold mb-2;
+}
+
+/* Texto de descripción */
+.card-text {
+  @apply text-sm text-gray-700;
+}
