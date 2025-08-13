@@ -2,15 +2,13 @@
     "name": "gamefinder",
     "version": "1.0.0",
     "private": true,
-    
     "scripts": {
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "deploy": "npm run build && gh-pages -d dist"
+        "deploy": "gh-pages -d dist"
     },
     "homepage": "https://Jmattisine.github.io/proyecto-5",
-
     "dependencies": {
         "axios": "^1.6.0",
         "react": "^18.2.0",
